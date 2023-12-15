@@ -1,0 +1,14 @@
+C:\Users\Per6Student\Documents\Visual Studio 2022\Visual Studio Scripts\CodingChallengesGallardo\CodingChallengesGallardo\bin\Debug\net6.0\CodingChallengesGallardo.exe
+C:\Users\Per6Student\Documents\Visual Studio 2022\Visual Studio Scripts\CodingChallengesGallardo\CodingChallengesGallardo\bin\Debug\net6.0\CodingChallengesGallardo.deps.json
+C:\Users\Per6Student\Documents\Visual Studio 2022\Visual Studio Scripts\CodingChallengesGallardo\CodingChallengesGallardo\bin\Debug\net6.0\CodingChallengesGallardo.runtimeconfig.json
+C:\Users\Per6Student\Documents\Visual Studio 2022\Visual Studio Scripts\CodingChallengesGallardo\CodingChallengesGallardo\bin\Debug\net6.0\CodingChallengesGallardo.dll
+C:\Users\Per6Student\Documents\Visual Studio 2022\Visual Studio Scripts\CodingChallengesGallardo\CodingChallengesGallardo\bin\Debug\net6.0\CodingChallengesGallardo.pdb
+C:\Users\Per6Student\Documents\Visual Studio 2022\Visual Studio Scripts\CodingChallengesGallardo\CodingChallengesGallardo\obj\Debug\net6.0\CodingChallengesGallardo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Per6Student\Documents\Visual Studio 2022\Visual Studio Scripts\CodingChallengesGallardo\CodingChallengesGallardo\obj\Debug\net6.0\CodingChallengesGallardo.AssemblyInfoInputs.cache
+C:\Users\Per6Student\Documents\Visual Studio 2022\Visual Studio Scripts\CodingChallengesGallardo\CodingChallengesGallardo\obj\Debug\net6.0\CodingChallengesGallardo.AssemblyInfo.cs
+C:\Users\Per6Student\Documents\Visual Studio 2022\Visual Studio Scripts\CodingChallengesGallardo\CodingChallengesGallardo\obj\Debug\net6.0\CodingChallengesGallardo.csproj.CoreCompileInputs.cache
+C:\Users\Per6Student\Documents\Visual Studio 2022\Visual Studio Scripts\CodingChallengesGallardo\CodingChallengesGallardo\obj\Debug\net6.0\CodingChallengesGallardo.dll
+C:\Users\Per6Student\Documents\Visual Studio 2022\Visual Studio Scripts\CodingChallengesGallardo\CodingChallengesGallardo\obj\Debug\net6.0\refint\CodingChallengesGallardo.dll
+C:\Users\Per6Student\Documents\Visual Studio 2022\Visual Studio Scripts\CodingChallengesGallardo\CodingChallengesGallardo\obj\Debug\net6.0\CodingChallengesGallardo.pdb
+C:\Users\Per6Student\Documents\Visual Studio 2022\Visual Studio Scripts\CodingChallengesGallardo\CodingChallengesGallardo\obj\Debug\net6.0\CodingChallengesGallardo.genruntimeconfig.cache
+C:\Users\Per6Student\Documents\Visual Studio 2022\Visual Studio Scripts\CodingChallengesGallardo\CodingChallengesGallardo\obj\Debug\net6.0\ref\CodingChallengesGallardo.dll
