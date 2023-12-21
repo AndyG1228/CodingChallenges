@@ -17,6 +17,7 @@ class CodingChallenges
         while (true)
         {
             Console.WriteLine("");
+            Console.WriteLine("Hello my name is Andy and today I have a variety of programs for you to choose from.");
             Console.WriteLine("Please insert an integer between 1 and 26 to begin the program, or press 0 to exit.");
             Console.WriteLine("[1] - Sum (Add two numbers)");
             Console.WriteLine("[2] - Convert (minutes into seconds)");
@@ -52,8 +53,86 @@ class CodingChallenges
                 case 1:
                     Challenge1();
                     break;
+                case 2:
+                    Challenge2();
+                    break;
+                case 3:
+                    Challenge3();
+                    break;
+                case 4:
+                    Challenge4();
+                    break;
+                case 5:
+                    Challenge5();
+                    break;
+                case 6:
+                    Challenge6();
+                    break;
+                case 7:
+                    Challenge7();
+                    break;
+                case 8:
+                    Challenge8();
+                    break;
+                case 9:
+                    Challenge9();
+                    break;
+                case 10:
+                    Challenge10();
+                    break;
+                case 11:
+                    Challenge11();
+                    break;
+                case 12:
+                    Challenge12();
+                    break;
+                case 13:
+                    Challenge13();
+                    break;
+                case 14:
+                    Challenge14();
+                    break;
+                case 15:
+                    Challenge15();
+                    break;
+                case 16:
+                    Challenge16();
+                    break;
+                case 17:
+                    Challenge17();
+                    break;
+                case 18:
+                    Challenge18();
+                    break;
+                case 19:
+                    Challenge19();
+                    break;
+                case 20:
+                    Challenge20();
+                    break;
+                case 21:
+                    Challenge21();
+                    break;
+                case 22:
+                    Challenge22();
+                    break;
+                case 23:
+                    Challenge23();
+                    break;
+                case 24:
+                    Challenge24();
+                    break;
+                case 25:
+                    Challenge25();
+                    break;
+                case 26:
+                    Challenge26();
+                    break;
+                case 0:
+                    Environment.Exit(0);
+                    break;
                 default:
-                    Console.WriteLine("Please insert an acceptable choice");
+                    Console.WriteLine("Please insert an acceptable choice.");
                     break;
             }
 
@@ -61,60 +140,94 @@ class CodingChallenges
     }    
         
         
-        static void Challenge1()
-        {
-            //Challenge 1
-            Console.WriteLine("The sum of 3 and 9 is " + Sum(3, 9));
-        }
-        
+    static void Challenge1()
+    {
+        //Challenge 1
+        Console.WriteLine("What is the first number?");
+        int first = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("What is the second number?");
+        int second = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("The sum of those two numbers is " + Sum(first, second));
+    }
 
+    static void Challenge2()
+    {
         //Challenge 2
-        Console.WriteLine("In 6 minutes there are " + ToSec(6) + " seconds");
-        
+        Console.WriteLine("How many minutes would you like to convert to seconds?");
+        int minutes = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("In that amount of minutes there are " + ToSec(minutes) + " seconds");
+    }
+
+    static void Challenge3()
+    {
         //Challenge 3
         Console.WriteLine("What is your original number?");
         int oops = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("When that number increases by 1, we get " + PlusOne(oops));
-        
-        //Challenge 4
-        Console.WriteLine("The current Circuit Power is at " + Breaker(230,10) + " Watts");
+    }
 
+    static void Challenge4()
+    {
+        //Challenge 4
+        Console.WriteLine("What is the voltage of your circuit?");
+        int voltage = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("What is the current of your circuit?");
+        int current = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("The current Circuit Power is at " + Breaker(voltage, current) + " Watts");
+    }
+
+    static void Challenge5()
+    {
         //Challenge 5
         Console.WriteLine("How old am I, creator?");
         int five = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("I'm " + five + " years old, meaning that I am also " + Age(five) + " days old");
+    }
 
+
+    static void Challenge6()
+    {
         //Challenge 6
         Console.WriteLine("How long is the bottom of your triange?");
         int six = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("How tall is your triange?");
         int seven = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("The area of your triangle is " + triArea(six, seven) + " inches squared");
-
+    }
+    static void Challenge7()
+    {
         //Challenge 7
         Console.WriteLine("Insert a value");
         int eight = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("This is " + lessThanOrEqualToZero(eight));
-
+    }
+    static void Challenge8()
+    {
         //Challenge 8
         Console.WriteLine("Insert the first value");
         int nine = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("Insert the second value");
         int ten = Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine("This is " + lessThan100(nine,ten));
-        
+        Console.WriteLine("This is " + lessThan100(nine, ten));
+    }
+    static void Challenge9()
+    {
         //Challenge 9
         Console.WriteLine("Insert a number");
         int eleven = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("Insert the same number");
         int twelve = Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine("This is " + IsEqual(eleven,twelve));
-        
+        Console.WriteLine("This is " + IsEqual(eleven, twelve));
+    }
+    static void Challenge10()
+    {
         //Challenge 10
         Console.WriteLine("Give me something");
         string a = Console.ReadLine();
         Console.WriteLine(GiveMeSomething(a));
-        
+    }
+    static void Challenge11()
+    {
         //Challenge 11
         Console.WriteLine("Is this true or false?");
         bool a = Convert.ToBoolean(Console.ReadLine());
@@ -122,48 +235,64 @@ class CodingChallenges
         Console.WriteLine("What is it now?");
         bool b = Convert.ToBoolean(Console.ReadLine());
         Console.WriteLine("It's " + Reverse(b) + "....");
-        
+    }
+    static void Challenge12()
+    {
         //Challenge 12
         Console.WriteLine("If you tell me a number of hours, I'll tell you how long that is in seconds!");
         int thirteen = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("There are " + howManySeconds(thirteen) + " seconds in that many hours.");
-        
+    }
+    static void Challenge13()
+    {
         //Challenge 13
         Console.WriteLine("How many sides does your polygon have?");
         int fourteen = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("The sum of the angles of your polygon is " + SumPolygon(fourteen) + " degrees.");
-        
+    }
+    static void Challenge14()
+    {
         //Challenge 14
         Console.WriteLine("Give me your name");
         string b = Console.ReadLine();
         Console.WriteLine(nameString(b));
-
+    }
+    static void Challenge15()
+    {
         //Challenge 15
         Console.WriteLine("Is this true?");
         bool c = Convert.ToBoolean(Console.ReadLine());
         Console.WriteLine("Then this must be true too?");
         bool d = Convert.ToBoolean(Console.ReadLine());
         Console.WriteLine("It's " + And(c, d));
-
+    }
+    static void Challenge16()
+    {
         //Challenge 16
         Console.WriteLine("How many three pointers were scored?");
         int fifteen = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("And how many two pointerss were scored?");
         int sixteen = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("Then they scored a total of " + Points(fifteen, sixteen) + " points");
-        
+    }
+    static void Challenge17()
+    {
         //Challenge 17
         Console.WriteLine("What is the length of your rectangle?");
         int seventeen = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("And what is its width?");
         int eighteen = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("Then the perimeter is " + FindPerimeter(seventeen, eighteen) + " units");
-
+    }
+    static void Challenge18()
+    {
         //Challenge 18
         Console.WriteLine("Could I get your name again?");
         string c = Console.ReadLine();
         Console.WriteLine(HelloName(c));
-        
+    }
+    static void Challenge19()
+    {
         //Challenge 19
         Console.WriteLine("How many chickens do you have?");
         int nineteen = Convert.ToInt32(Console.ReadLine());
@@ -173,7 +302,9 @@ class CodingChallenges
         int twentyone = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("Then all your animals together have " + animals(nineteen, twenty, twentyone) + " legs!");
         Console.WriteLine("Why're you looking at me like that?");
-        
+    }
+    static void Challenge20()
+    {
         //Challenge 20
         Console.WriteLine("How many wins does your team have?");
         int twentytwo = Convert.ToInt32(Console.ReadLine());
@@ -182,12 +313,17 @@ class CodingChallenges
         Console.WriteLine("And your team's losses?");
         int twentyfour = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("Then your team has obtained " + FootballPoints(twentytwo, twentythree, twentyfour) + " points!");
-        
+
+    }
+    static void Challenge21()
+    {
         //Challenge 21
         Console.WriteLine("In digit form, what month were you born in?");
         int twentyfive = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine(MonthName(twentyfive) + ", then?");
-        
+    }
+    static void Challenge22()
+    {
         //Challenge 22
         int[] a = { 0, 0, 0, 0, 0, };
         Console.WriteLine("Enter the first value");
@@ -201,7 +337,9 @@ class CodingChallenges
         Console.WriteLine("Enter the fifth value");
         a[4] = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine(FindMinMax(a));
-        
+    }
+    static void Challenge23()
+    {
         //Challenge 23
         int[] b = { 0, 0, 0, 0, 0, };
         Console.WriteLine("Enter the first value");
@@ -215,14 +353,18 @@ class CodingChallenges
         Console.WriteLine("Enter the fifth value");
         b[4] = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine(getAbsSum(b));
-        
+    }
+    static void Challenge24()
+    {
         //Challenge 24
         Console.WriteLine("What is the value of your base value?");
         int twentysix = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("What is the value of your exponent?");
         int twentyseven = Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine(CalculateExponent(twentysix,twentyseven) + " should be the value of your number");
-        
+        Console.WriteLine(CalculateExponent(twentysix, twentyseven) + " should be the value of your number");
+    }
+    static void Challenge25()
+    {
         //Challenge 25
         Console.WriteLine("Give me the amount of numbers you'd like in your array.");
         int twentyeight = Convert.ToInt32(Console.ReadLine());
@@ -234,7 +376,9 @@ class CodingChallenges
             c[i] = a;
         }
         Console.WriteLine("Your new array is " + MultiplyByLength(c));
-        */
+    }
+    static void Challenge26()
+    {
         //Challenge  26
         Console.WriteLine("What is the first string?");
         string d = Console.ReadLine();
@@ -248,9 +392,10 @@ class CodingChallenges
         else
         {
             Console.WriteLine(HammingDistance(e, d));
-            
+
         }
     }
+    
     static int Sum(int a, int b)
     {
         int sum = a + b;
