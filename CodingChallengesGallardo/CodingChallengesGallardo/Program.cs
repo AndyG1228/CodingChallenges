@@ -213,11 +213,12 @@ class CodingChallenges
     static void Challenge9()
     {
         //Challenge 9
+        Console.WriteLine("We are to determine whether or not a statement is true depending on if you input the same two numbers.");
         Console.WriteLine("Insert a number");
         int eleven = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("Insert the same number");
         int twelve = Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine("This is " + IsEqual(eleven, twelve));
+        Console.WriteLine("This statement is " + IsEqual(eleven, twelve));
     }
     static void Challenge10()
     {
@@ -342,6 +343,7 @@ class CodingChallenges
     {
         //Challenge 23
         int[] b = { 0, 0, 0, 0, 0, };
+        Console.WriteLine("After entering all 5 values, we will determine the sum of the absolute of all of these numbers.");
         Console.WriteLine("Enter the first value");
         b[0] = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("Enter the second value");
@@ -380,6 +382,7 @@ class CodingChallenges
     static void Challenge26()
     {
         //Challenge  26
+        Console.WriteLine("Create strings of the same length to determine how many characters are different between each string.");
         Console.WriteLine("What is the first string?");
         string d = Console.ReadLine();
         Console.WriteLine("What is the second string?");

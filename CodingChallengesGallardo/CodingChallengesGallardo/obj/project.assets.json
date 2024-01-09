@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\andyg\\.nuget\\packages\\": {}
+    "C:\\Users\\Per6Student\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\andyg\\Documents\\Unity\\GitHub\\CodingChallenges\\CodingChallengesGallardo\\CodingChallengesGallardo\\CodingChallengesGallardo.csproj",
+      "projectUniqueName": "C:\\Users\\Per6Student\\Documents\\Unity\\GitHub\\CodingChallenges\\CodingChallengesGallardo\\CodingChallengesGallardo\\CodingChallengesGallardo.csproj",
       "projectName": "CodingChallengesGallardo",
-      "projectPath": "C:\\Users\\andyg\\Documents\\Unity\\GitHub\\CodingChallenges\\CodingChallengesGallardo\\CodingChallengesGallardo\\CodingChallengesGallardo.csproj",
-      "packagesPath": "C:\\Users\\andyg\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\andyg\\Documents\\Unity\\GitHub\\CodingChallenges\\CodingChallengesGallardo\\CodingChallengesGallardo\\obj\\",
+      "projectPath": "C:\\Users\\Per6Student\\Documents\\Unity\\GitHub\\CodingChallenges\\CodingChallengesGallardo\\CodingChallengesGallardo\\CodingChallengesGallardo.csproj",
+      "packagesPath": "C:\\Users\\Per6Student\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Per6Student\\Documents\\Unity\\GitHub\\CodingChallenges\\CodingChallengesGallardo\\CodingChallengesGallardo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\andyg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Per6Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }
